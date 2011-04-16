@@ -29,25 +29,28 @@ sub violates {
     my ( $self, $elem ) = @_;
 
     #first element PPI::Token::Word (system or exec)
-    if (ref $elem eq 'PPI::Token::Word' and $elem =~ m{
+    if (ref $elem eq 'PPI::Token::Word'
+        and $elem =~ m{
             \A  #beginning of string
             (system|exec)
             \Z  #end of string
-    }xsm) {
+    }xsm
+        )
+    {
         return $self->violation( q{Do not use 'system' or 'exec' statements},
-               $EXPL, $elem );
+            $EXPL, $elem );
     }
-    
+
     if ( ref $elem eq 'PPI::Token::QuoteLike::Command' ) {
         return $self->violation( q{Do not use 'qx' statements}, $EXPL,
             $elem );
     }
-    
+
     if ( ref $elem eq 'PPI::Token::QuoteLike::Backtick' ) {
         return $self->violation( q{Do not use 'backticks' statements},
             $EXPL, $elem );
-    } 
-    
+    }
+
     return;
 }
 
