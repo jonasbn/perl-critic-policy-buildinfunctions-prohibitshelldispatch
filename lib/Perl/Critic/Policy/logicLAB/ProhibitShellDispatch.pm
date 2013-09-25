@@ -133,7 +133,7 @@ This distribution has no known bugs or limitations.
 
 Please use Requets Tracker for bug reporting:
 
-    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-logicLAB-Prohibit-ShellDispatch
+    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-Policy-logicLAB-ProhibitShellDispatch
 
 =head1 TEST AND QUALITY
 
@@ -178,7 +178,7 @@ See also F<t/perlcriticrc>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (c) 2011 Jonas B. Nielsen. All rights reserved.
+Copyright (c) 2013 Jonas B. Nielsen. All rights reserved.
 
 This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
