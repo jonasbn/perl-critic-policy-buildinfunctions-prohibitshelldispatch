@@ -16,9 +16,10 @@ use constant default_severity     => $SEVERITY_MEDIUM;
 use constant default_themes       => qw(logiclab);
 
 sub applies_to {
+    #PPI::Token::Word
     return (
         qw(
-            PPI::Token::Word
+            PPI::Statement
             PPI::Token::QuoteLike::Command
             PPI::Token::QuoteLike::Backtick
             )
@@ -29,16 +30,27 @@ sub violates {
     my ( $self, $elem ) = @_;
 
     #first element PPI::Token::Word (system or exec)
-    if (ref $elem eq 'PPI::Token::Word'
-        and $elem =~ m{
+    if (ref $elem eq 'PPI::Statement') {
+
+        my $word = $elem->find_first('PPI::Token::Word');
+
+        if ($word and $word =~ m{
             \A  #beginning of string
             (system|exec)
             \Z  #end of string
-    }xsm
-        )
-    {
-        return $self->violation( q{Do not use 'system' or 'exec' statements},
+        }xsm) {
+            
+            #previous significant sibling
+            my $sibling = $word->sprevious_sibling;
+
+            if ($sibling and $sibling eq '->') {
+                return;
+            } else {
+                return $self->violation( q{Do not use 'system' or 'exec' statements},
             $EXPL, $elem );
+            }
+        }
+        return;
     }
 
     if ( ref $elem eq 'PPI::Token::QuoteLike::Command' ) {
