@@ -6,7 +6,7 @@ AFFILIATION
     This policy is a policy in the Perl::Critic::logicLAB distribution.
 
 VERSION
-    This documentation describes version 0.01
+    This documentation describes version 0.02
 
 DESCRIPTION
     Using Perl builtins to dispatch to external shell commands are not
@@ -59,6 +59,13 @@ INCOMPATIBILITIES
 BUGS AND LIMITATIONS
     This distribution has no known bugs or limitations.
 
+    As pointed out in bug report RT:91542, some modules and components might
+    implement methods/routines holding names similar to the builtins system
+    and exec. I had not anticipated this when first implementing the policy
+    and there might be some cases where the current implementation does not
+    handle these well, please file a bugreport if you run into one of these
+    and I will address these.
+
 BUG REPORTING
     Please use Requets Tracker for bug reporting:
 
@@ -88,6 +95,13 @@ SEE ALSO
 
 AUTHOR
     *   Jonas B. Nielsen, jonasbn "<jonasbn@cpan.org>"
+
+ACKNOWLEDGEMENTS
+    *   Johan the Olive, bug reporting on Net::OpenSSH's system (RT:91542)
+
+    *   Adam Kennedy, author of PPI
+
+    *   Jeffrey Ryan Thalhammer, author of Perl::Critic
 
 LICENSE AND COPYRIGHT
     Copyright (c) 2013 Jonas B. Nielsen. All rights reserved.
