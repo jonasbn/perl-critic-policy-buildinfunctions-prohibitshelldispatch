@@ -107,7 +107,7 @@ The policy scans for: system, exec, qx and the use of backticks, some basic exam
     my $hostname = `hostname`
 
 Instead use the Perl builtins or CPAN distributions. This will make you distribution
-easier to control and easier to distribution accross platforms.
+easier to control and easier to distribute across platforms.
 
     #hostname
     use Net::Domain qw(hostname);
