@@ -7,7 +7,7 @@ http://logicLAB.jira.com/browse/PCPLPSD#selectedTab=com.atlassian.jira.plugin.sy
 
 0.03 2013-12-27
 
-- Update not recommended
+- Update recommended
 
 - Addressed bug report: RT:91542, Net::OpenSSH's system method would trigger a violation
   [PCPLPSD-7]
