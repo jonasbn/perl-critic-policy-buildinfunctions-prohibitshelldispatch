@@ -7,7 +7,7 @@ use warnings;
 use base 'Perl::Critic::Policy';
 use Perl::Critic::Utils qw{ $SEVERITY_MEDIUM };
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 Readonly::Scalar my $EXPL => q{Use Perl builtin instead};
 
@@ -82,7 +82,7 @@ This policy is a policy in the L<Perl::Critic::logicLAB> distribution.
 
 =head1 VERSION
 
-This documentation describes version 0.02
+This documentation describes version 0.03
 
 =head1 DESCRIPTION
 
