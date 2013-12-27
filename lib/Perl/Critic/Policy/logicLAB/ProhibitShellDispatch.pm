@@ -126,6 +126,8 @@ This Policy is not configurable except for the standard options.
 
 =over
 
+=item * L<Perl> version 5.8.0
+
 =item * L<Perl::Critic>
 
 =item * L<Perl::Critic::Utils>
