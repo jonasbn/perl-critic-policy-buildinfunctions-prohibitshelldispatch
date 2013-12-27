@@ -5,14 +5,15 @@ $Id$
 Project change log:
 http://logicLAB.jira.com/browse/PCPLPSD#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel
 
+- Changed repository to Github
+
 0.03 2013-12-27
 
 - Update recommended
 
 - Specified minimum version of Perl (5.8.0)
 
-- Addressed bug report: RT:91542, Net::OpenSSH's system method would trigger a violation
-  [PCPLPSD-7]
+- Addressed bug report: RT:91542, Net::OpenSSH's system method would trigger a violation [PCPLPSD-7]
 
   https://rt.cpan.org/Public/Bug/Display.html?id=91542
   https://logiclab.jira.com/browse/PCPLPSD-8
