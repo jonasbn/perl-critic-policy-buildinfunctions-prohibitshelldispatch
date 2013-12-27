@@ -82,7 +82,7 @@ This policy is a policy in the L<Perl::Critic::logicLAB> distribution.
 
 =head1 VERSION
 
-This documentation describes version 0.01
+This documentation describes version 0.02
 
 =head1 DESCRIPTION
 
@@ -185,6 +185,18 @@ See also F<t/perlcriticrc>
 =over
 
 =item * Jonas B. Nielsen, jonasbn C<< <jonasbn@cpan.org> >>
+
+=back
+
+=head1 ACKNOWLEDGEMENTS
+
+=over
+
+=item * Johan the Olive, bug reporting on Net::OpenSSH's system (RT:91542)
+
+=item * Adam Kennedy, author of PPI
+
+=item * Jeffrey Ryan Thalhammer, author of Perl::Critic
 
 =back
 
