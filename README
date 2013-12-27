@@ -6,7 +6,7 @@ AFFILIATION
     This policy is a policy in the Perl::Critic::logicLAB distribution.
 
 VERSION
-    This documentation describes version 0.02
+    This documentation describes version 0.03
 
 DESCRIPTION
     Using Perl builtins to dispatch to external shell commands are not
@@ -43,6 +43,8 @@ CONFIGURATION AND ENVIRONMENT
     This Policy is not configurable except for the standard options.
 
 DEPENDENCIES AND REQUIREMENTS
+    *   Perl version 5.8.0
+
     *   Perl::Critic
 
     *   Perl::Critic::Utils
