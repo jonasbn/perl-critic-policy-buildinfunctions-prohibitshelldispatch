@@ -9,6 +9,8 @@ http://logicLAB.jira.com/browse/PCPLPSD#selectedTab=com.atlassian.jira.plugin.sy
 
 - Update recommended
 
+- Specified minimum version of Perl (5.8.0)
+
 - Addressed bug report: RT:91542, Net::OpenSSH's system method would trigger a violation
   [PCPLPSD-7]
 
