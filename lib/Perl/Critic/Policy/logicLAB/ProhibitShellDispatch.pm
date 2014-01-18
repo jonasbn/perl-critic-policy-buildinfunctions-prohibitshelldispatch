@@ -98,13 +98,13 @@ distributions.
 
 The policy scans for: system, exec, qx and the use of backticks, some basic examples.
 
-    system "touch $0.lock"
+    system "touch $0.lock";
     
     exec "touch $0.lock";
     
     my $hostname = qx/hostname/;
     
-    my $hostname = `hostname`
+    my $hostname = `hostname`;
 
 Instead use the Perl builtins or CPAN distributions. This will make you distribution
 easier to control and easier to distribute across platforms.
