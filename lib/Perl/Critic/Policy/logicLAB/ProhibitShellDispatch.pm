@@ -8,7 +8,7 @@ use base 'Perl::Critic::Policy';
 use Perl::Critic::Utils qw{ $SEVERITY_MEDIUM };
 use 5.008;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 Readonly::Scalar my $EXPL => q{Use Perl builtin instead};
 
