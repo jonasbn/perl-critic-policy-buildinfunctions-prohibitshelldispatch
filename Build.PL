@@ -24,7 +24,7 @@ my $build = Module::Build->new(
     meta_merge => {
         resources => {
             homepage => 'http://logiclab.jira.com/wiki/display/PCPLPSD/Home',
-            bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-logicLAB-Prohibit-ShellDispatch',
+            bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-Policy-logicLAB-Prohibit-ShellDispatch',
             repository => 'https://github.com/jonasbn/pcplpsd',
             ProjectChangelog =>
                 'http://logiclab.jira.com/browse/PCPLPSD#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel',
