@@ -6,7 +6,7 @@ AFFILIATION
     This policy is a policy in the Perl::Critic::logicLAB distribution.
 
 VERSION
-    This documentation describes version 0.03
+    This documentation describes version 0.05
 
 DESCRIPTION
     Using Perl builtins to dispatch to external shell commands are not
@@ -88,8 +88,8 @@ TEST AND QUALITY
         ---------------------------- ------ ------ ------ ------ ------ ------ ------
         File                           stmt   bran   cond    sub    pod   time  total
         ---------------------------- ------ ------ ------ ------ ------ ------ ------
-        .../ProhibitShellDispatch.pm  100.0   83.3  100.0  100.0  100.0  100.0   98.0
-        Total                         100.0   83.3  100.0  100.0  100.0  100.0   98.0
+        .../ProhibitShellDispatch.pm  100.0  100.0   83.3  100.0  100.0  100.0   98.5
+        Total                         100.0  100.0   83.3  100.0  100.0  100.0   98.5
         ---------------------------- ------ ------ ------ ------ ------ ------ ------
 
 SEE ALSO
@@ -106,7 +106,7 @@ ACKNOWLEDGEMENTS
     *   Jeffrey Ryan Thalhammer, author of Perl::Critic
 
 LICENSE AND COPYRIGHT
-    Copyright (c) 2013 Jonas B. Nielsen. All rights reserved.
+    Copyright (c) 2013-2014 Jonas B. Nielsen. All rights reserved.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
