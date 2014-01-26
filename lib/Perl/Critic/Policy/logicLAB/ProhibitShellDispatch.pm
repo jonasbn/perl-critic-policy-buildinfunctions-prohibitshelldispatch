@@ -87,7 +87,7 @@ This policy is a policy in the L<Perl::Critic::logicLAB> distribution.
 
 =head1 VERSION
 
-This documentation describes version 0.03
+This documentation describes version 0.05
 
 =head1 DESCRIPTION
 
@@ -182,8 +182,8 @@ See also F<t/perlcriticrc>
     ---------------------------- ------ ------ ------ ------ ------ ------ ------
     File                           stmt   bran   cond    sub    pod   time  total
     ---------------------------- ------ ------ ------ ------ ------ ------ ------
-    .../ProhibitShellDispatch.pm  100.0   83.3  100.0  100.0  100.0  100.0   98.0
-    Total                         100.0   83.3  100.0  100.0  100.0  100.0   98.0
+    .../ProhibitShellDispatch.pm  100.0  100.0   83.3  100.0  100.0  100.0   98.5
+    Total                         100.0  100.0   83.3  100.0  100.0  100.0   98.5
     ---------------------------- ------ ------ ------ ------ ------ ------ ------
 
 =head1 SEE ALSO
