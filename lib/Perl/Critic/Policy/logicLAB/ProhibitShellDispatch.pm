@@ -149,11 +149,11 @@ This distribution has no known incompatibilities.
 This distribution has no known bugs or limitations.
 
 As pointed out in bug report RT:91542, some modules and components might 
-implement methods/routines holding names similar to the builtins system 
-and exec. I had not anticipated this when first implementing the policy 
-and there might be some cases where the current implementation does not 
-handle these well, please file a bugreport if you run into one of these 
-and I will address these.
+implement methods/routines holding names similar to the builtins C<system>, 
+C<exec>, C<qx> and similar. I had not anticipated this when first implementing 
+the policy and I expect there will be more cases where the current implementation 
+does not handle this well, please file a bugreport if you run into one of these 
+issues and I will investigate and address accordingly.
 
 =head1 BUG REPORTING
 
