@@ -49,3 +49,6 @@
 # Avoid archives of this distribution
 \bPerl-Critic-Policy-logicLAB-ProhibitShellDispatch-[\d\.\_]+
 \.komodoproject
+
+# Github - Travis integration
+\.travis\.yml
