@@ -4,10 +4,6 @@
 # The severity parameter interpretation was added by jonasbn
 # See: http://logiclab.jira.com/wiki/display/OPEN/Test-Perl-Critic
 
-# $Id$
-
-# $HeadURL$
-
 use strict;
 use warnings;
 use File::Spec;
