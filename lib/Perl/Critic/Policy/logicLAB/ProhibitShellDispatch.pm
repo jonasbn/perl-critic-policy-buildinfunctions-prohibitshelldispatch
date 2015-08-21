@@ -1,7 +1,5 @@
 package Perl::Critic::Policy::logicLAB::ProhibitShellDispatch;
 
-# $Id$
-
 use strict;
 use warnings;
 use base 'Perl::Critic::Policy';
