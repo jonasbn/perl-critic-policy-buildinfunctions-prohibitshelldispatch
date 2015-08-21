@@ -8,7 +8,7 @@ use base 'Perl::Critic::Policy';
 use Perl::Critic::Utils qw{ $SEVERITY_MEDIUM };
 use 5.008;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 Readonly::Scalar my $EXPL => q{Use Perl builtin instead};
 
@@ -222,10 +222,10 @@ See also F<t/perlcriticrc>
 
 =back
 
-=head1 LICENSE AND COPYRIGHT
+=head1 COPYRIGHT
 
-Copyright (c) 2013-2014 Jonas B. Nielsen. All rights reserved.
+Perl::Critic::Policy::logicLAB::ProhibitShellDispatch is (C) by Jonas B. Nielsen, (jonasbn) 2013-2015
 
-This program is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
+Perl::Critic::Policy::logicLAB::ProhibitShellDispatch is released under the artistic license 2.0
 
 =cut
