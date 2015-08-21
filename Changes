@@ -1,6 +1,6 @@
 Changes file for Perl::Critic::Policy::logicLAB::ProhibitShellDispatch
 
-0.05 2015-08-20
+0.05 2015-08-21
 
 - Upgraded from artistic license 1.0 to artistic license 2.0
 
