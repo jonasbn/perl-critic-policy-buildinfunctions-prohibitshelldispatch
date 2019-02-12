@@ -220,7 +220,7 @@ See also F<t/perlcriticrc>
 
 =back
 
-=head1 COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
 
 Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is (C) by Jonas B. Nielsen, (jonasbn) 2013-2015
 
