@@ -12,7 +12,7 @@ Readonly::Scalar my $EXPL => q{Use Perl builtin instead};
 
 use constant supported_parameters => ();
 use constant default_severity     => $SEVERITY_MEDIUM;
-use constant default_themes       => qw(logiclab);
+use constant default_themes       => qw(logiclab portability security);
 
 sub applies_to {
 
