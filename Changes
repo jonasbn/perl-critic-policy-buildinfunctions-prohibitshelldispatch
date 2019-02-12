@@ -1,4 +1,8 @@
-Changes file for Perl::Critic::Policy::logicLAB::ProhibitShellDispatch
+Changes file for Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch
+
+1.00 2019-02-12T09:13:32Z Major release, update recommended
+
+- The policy has changed name to Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch
 
 0.05 2015-08-21
 
@@ -30,7 +34,7 @@ Changes file for Perl::Critic::Policy::logicLAB::ProhibitShellDispatch
   https://rt.cpan.org/Public/Bug/Display.html?id=91542
   https://logiclab.jira.com/browse/PCPLPSD-8
 
-- Added changes.t automatic assertion of the integrity of the Changes file, 
+- Added changes.t automatic assertion of the integrity of the Changes file,
   see also PCPLPSD-5 [PCPLPSD-6]
 
   https://logiclab.jira.com/browse/PCPLPSD-6
@@ -47,7 +51,7 @@ Changes file for Perl::Critic::Policy::logicLAB::ProhibitShellDispatch
 
   Quest: http://questhub.io/realm/perl/quest/51f0fd8e18ba7dcf4b000040
   Spec: https://metacpan.org/module/CPAN::Changes::Spec
-  
+
   https://logiclab.jira.com/browse/PCPLPSD-5
 
 

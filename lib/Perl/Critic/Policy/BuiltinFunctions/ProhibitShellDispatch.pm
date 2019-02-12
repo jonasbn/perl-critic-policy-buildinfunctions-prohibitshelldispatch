@@ -1,4 +1,4 @@
-package Perl::Critic::Policy::logicLAB::ProhibitShellDispatch;
+package Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch;
 
 use strict;
 use warnings;
@@ -85,7 +85,7 @@ __END__
 
 =head1 NAME
 
-Perl::Critic::Policy::logicLAB::ProhibitShellDispatch - simple policy prohibiting shell dispatching
+Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch - simple policy prohibiting shell dispatching
 
 =head1 AFFILIATION
 
@@ -105,11 +105,11 @@ distributions.
 The policy scans for: system, exec, qx and the use of backticks, some basic examples.
 
     system "touch $0.lock";
-    
+
     exec "touch $0.lock";
-    
+
     my $hostname = qx/hostname/;
-    
+
     my $hostname = `hostname`;
 
 Instead use the Perl builtins or CPAN distributions. This will make you distribution
@@ -127,7 +127,7 @@ a 101 demonstrating violations and their remedies.
 =head1 CONFIGURATION AND ENVIRONMENT
 
 This Policy is not configurable except for the standard options.
-    
+
 =head1 DEPENDENCIES AND REQUIREMENTS
 
 =over
@@ -154,11 +154,11 @@ This distribution has no known incompatibilities.
 
 This distribution has no known bugs or limitations.
 
-As pointed out in bug report RT:91542, some modules and components might 
-implement methods/routines holding names similar to the builtins C<system>, 
-C<exec>, C<qx> and similar. I had not anticipated this when first implementing 
-the policy and I expect there will be more cases where the current implementation 
-does not handle this well, please file a bugreport if you run into one of these 
+As pointed out in bug report RT:91542, some modules and components might
+implement methods/routines holding names similar to the builtins C<system>,
+C<exec>, C<qx> and similar. I had not anticipated this when first implementing
+the policy and I expect there will be more cases where the current implementation
+does not handle this well, please file a bugreport if you run into one of these
 issues and I will investigate and address accordingly.
 
 =head1 BUG REPORTING
@@ -184,7 +184,7 @@ The following policies have been disabled for this distribution
 See also F<t/perlcriticrc>
 
 =head2 TEST COVERAGE
-    
+
     ---------------------------- ------ ------ ------ ------ ------ ------ ------
     File                           stmt   bran   cond    sub    pod   time  total
     ---------------------------- ------ ------ ------ ------ ------ ------ ------
@@ -222,8 +222,8 @@ See also F<t/perlcriticrc>
 
 =head1 COPYRIGHT
 
-Perl::Critic::Policy::logicLAB::ProhibitShellDispatch is (C) by Jonas B. Nielsen, (jonasbn) 2013-2015
+Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is (C) by Jonas B. Nielsen, (jonasbn) 2013-2015
 
-Perl::Critic::Policy::logicLAB::ProhibitShellDispatch is released under the artistic license 2.0
+Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is released under the artistic license 2.0
 
 =cut
