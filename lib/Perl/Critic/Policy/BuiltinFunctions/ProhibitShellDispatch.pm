@@ -204,7 +204,7 @@ See also F<t/perlcriticrc>
 
 =over
 
-=item * Jonas B. Nielsen, jonasbn C<< <jonasbn@cpan.org> >>
+=item * Jonas B. (jonasbn) C<< <jonasbn@cpan.org> >>
 
 =back
 
@@ -222,7 +222,7 @@ See also F<t/perlcriticrc>
 
 =head1 LICENSE AND COPYRIGHT
 
-Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is (C) by Jonas B. Nielsen, (jonasbn) 2013-2019
+Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is (C) by Jonas B. (jonasbn) 2013-2019
 
 Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is released under the artistic license 2.0
 

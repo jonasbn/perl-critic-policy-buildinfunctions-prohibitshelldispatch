@@ -8,11 +8,11 @@ Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch - simple policy pr
 
 # AFFILIATION
 
-This policy is a policy in the [Perl::Critic::logicLAB](https://metacpan.org/pod/Perl::Critic::logicLAB) distribution.
+This policy has no affiliation The policy is themed: `logiclab`, `security` .and `portability`
 
 # VERSION
 
-This documentation describes version 0.05
+This documentation describes version 1.00
 
 # DESCRIPTION
 
@@ -102,7 +102,7 @@ See also `t/perlcriticrc`
 
 # AUTHOR
 
-- Jonas B. Nielsen, jonasbn `<jonasbn@cpan.org>`
+- Jonas B. (jonasbn) `<jonasbn@cpan.org>`
 
 # ACKNOWLEDGEMENTS
 
@@ -112,6 +112,6 @@ See also `t/perlcriticrc`
 
 # LICENSE AND COPYRIGHT
 
-Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is (C) by Jonas B. Nielsen, (jonasbn) 2013-2015
+Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is (C) by Jonas B. (jonasbn) 2013-2019
 
 Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is released under the artistic license 2.0
