@@ -81,8 +81,8 @@ Please use Requets Tracker for bug reporting:
 
 The following policies have been disabled for this distribution
 
-- [Perl::Crititc::Policy::ValuesAndExpressions::ProhibitConstantPragma](https://metacpan.org/pod/Perl::Crititc::Policy::ValuesAndExpressions::ProhibitConstantPragma)
-- [Perl::Crititc::Policy::NamingConventions::Capitalization](https://metacpan.org/pod/Perl::Crititc::Policy::NamingConventions::Capitalization)
+- [Perl::Critic::Policy::ValuesAndExpressions::ProhibitConstantPragma](https://metacpan.org/pod/Perl::Crititc::Policy::ValuesAndExpressions::ProhibitConstantPragma)
+- [Perl::Critic::Policy::NamingConventions::Capitalization](https://metacpan.org/pod/Perl::Crititc::Policy::NamingConventions::Capitalization)
 - [Documentation::RequirePodLinksIncludeText](https://metacpan.org/pod/Documentation::RequirePodLinksIncludeText)
 
 See also `t/perlcriticrc`
