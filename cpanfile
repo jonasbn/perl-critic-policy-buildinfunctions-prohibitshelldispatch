@@ -14,7 +14,7 @@ on 'test', sub {
     requires 'IPC::Open3';
     requires 'Pod::Coverage::TrustPod'; # from Dist::Zilla
     requires 'Test::Fatal';
-    requires 'Test::Kwalitee', '1.21'; # from Dist::Zilla
+    requires 'Test::Kwalitee', '1.28'; # from Dist::Zilla
     requires 'Test::More', '0.88'; # required by Test::Kwalitee
     requires 'Test::Pod', '1.41'; # from Dist::Zilla
     requires 'Test::Pod::Coverage', '1.08'; # from Dist::Zilla
@@ -29,7 +29,7 @@ on 'develop', sub {
     requires 'Pod::Coverage::TrustPod'; # from Dist::Zilla
     requires 'Test::CPAN::Changes', '0.19';
     requires 'Test::CPAN::Meta::JSON', '0.16';
-    requires 'Test::Kwalitee', '1.21'; # from Dist::Zilla
+    requires 'Test::Kwalitee', '1.28'; # from Dist::Zilla
     requires 'Test::Perl::Critic';
     requires 'Test::Pod', '1.41'; # from Dist::Zilla
     requires 'Test::Pod::Coverage', '1.08'; # from Dist::Zilla
