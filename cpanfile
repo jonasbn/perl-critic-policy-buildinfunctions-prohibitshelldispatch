@@ -16,7 +16,7 @@ on 'test', sub {
     requires 'Test::Fatal';
     requires 'Test::Kwalitee', '1.21'; # from Dist::Zilla
     requires 'Test::More', '0.88'; # required by Test::Kwalitee
-    requires 'Test::Pod', '1.41'; # from Dist::Zilla
+    requires 'Test::Pod', '1.52'; # from Dist::Zilla
     requires 'Test::Pod::Coverage', '1.08'; # from Dist::Zilla
 };
 
@@ -31,6 +31,6 @@ on 'develop', sub {
     requires 'Test::CPAN::Meta::JSON', '0.16';
     requires 'Test::Kwalitee', '1.21'; # from Dist::Zilla
     requires 'Test::Perl::Critic';
-    requires 'Test::Pod', '1.41'; # from Dist::Zilla
+    requires 'Test::Pod', '1.52'; # from Dist::Zilla
     requires 'Test::Pod::Coverage', '1.08'; # from Dist::Zilla
 };
