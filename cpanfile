@@ -17,7 +17,7 @@ on 'test', sub {
     requires 'Test::Kwalitee', '1.28'; # from Dist::Zilla
     requires 'Test::More', '0.88'; # required by Test::Kwalitee
     requires 'Test::Pod', '1.52'; # from Dist::Zilla
-    requires 'Test::Pod::Coverage', '1.08'; # from Dist::Zilla
+    requires 'Test::Pod::Coverage', '1.10'; # from Dist::Zilla
 };
 
 on 'configure', sub {
@@ -32,5 +32,5 @@ on 'develop', sub {
     requires 'Test::Kwalitee', '1.28'; # from Dist::Zilla
     requires 'Test::Perl::Critic';
     requires 'Test::Pod', '1.52'; # from Dist::Zilla
-    requires 'Test::Pod::Coverage', '1.08'; # from Dist::Zilla
+    requires 'Test::Pod::Coverage', '1.10'; # from Dist::Zilla
 };
