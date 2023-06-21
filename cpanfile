@@ -27,7 +27,7 @@ on 'configure', sub {
 
 on 'develop', sub {
     requires 'Pod::Coverage::TrustPod'; # from Dist::Zilla
-    requires 'Test::CPAN::Changes', '0.19';
+    requires 'Test::CPAN::Changes', '0.400002';
     requires 'Test::CPAN::Meta::JSON', '0.16';
     requires 'Test::Kwalitee', '1.28'; # from Dist::Zilla
     requires 'Test::Perl::Critic';
