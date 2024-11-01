@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use Test::More qw(no_plan);
 
-use_ok 'Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch';
+use_ok 'Perl::Critic::Policy::logicLAB::ProhibitShellDispatch';
 
 require Perl::Critic;
 my $critic = Perl::Critic->new(

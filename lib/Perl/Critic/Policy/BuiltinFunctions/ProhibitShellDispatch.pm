@@ -1,4 +1,4 @@
-package Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch;
+package Perl::Critic::Policy::logicLAB::ProhibitShellDispatch;
 
 use strict;
 use warnings;
@@ -85,7 +85,7 @@ __END__
 
 =head1 NAME
 
-Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch - simple policy prohibiting shell dispatching
+Perl::Critic::Policy::logicLAB::ProhibitShellDispatch - simple policy prohibiting shell dispatching
 
 =head1 AFFILIATION
 
@@ -222,8 +222,8 @@ See also F<t/perlcriticrc>
 
 =head1 LICENSE AND COPYRIGHT
 
-Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is (C) by Jonas B. (jonasbn) 2013-2019
+Perl::Critic::Policy::logicLAB::ProhibitShellDispatch is (C) by Jonas B. (jonasbn) 2013-2019
 
-Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is released under the artistic license 2.0
+Perl::Critic::Policy::logicLAB::ProhibitShellDispatch is released under the artistic license 2.0
 
 =cut
