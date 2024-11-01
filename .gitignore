@@ -21,3 +21,4 @@ META.json
 MYMETA.json
 Makefile.PL
 .DS_Store
+local/

@@ -1,9 +1,5 @@
 Changes file for Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch
 
-1.00 2019-02-12T09:13:32Z Major release, update recommended
-
-- The policy has changed name to Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch
-
 0.05 2015-08-21
 
 - Upgraded from artistic license 1.0 to artistic license 2.0

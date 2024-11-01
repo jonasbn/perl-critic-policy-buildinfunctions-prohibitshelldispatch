@@ -4,7 +4,7 @@
 
 # NAME
 
-Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch - simple policy prohibiting shell dispatching
+Perl::Critic::Policy::logicLAB::ProhibitShellDispatch - simple policy prohibiting shell dispatching
 
 # AFFILIATION
 
@@ -50,11 +50,11 @@ This Policy is not configurable except for the standard options.
 # DEPENDENCIES AND REQUIREMENTS
 
 - [Perl](https://metacpan.org/pod/Perl) version 5.8.0
-- [Perl::Critic](https://metacpan.org/pod/Perl::Critic)
-- [Perl::Critic::Utils](https://metacpan.org/pod/Perl::Critic::Utils)
+- [Perl::Critic](https://metacpan.org/pod/Perl%3A%3ACritic)
+- [Perl::Critic::Utils](https://metacpan.org/pod/Perl%3A%3ACritic%3A%3AUtils)
 - [Readonly](https://metacpan.org/pod/Readonly)
-- [Test::More](https://metacpan.org/pod/Test::More)
-- [Test::Perl::Critic](https://metacpan.org/pod/Test::Perl::Critic)
+- [Test::More](https://metacpan.org/pod/Test%3A%3AMore)
+- [Test::Perl::Critic](https://metacpan.org/pod/Test%3A%3APerl%3A%3ACritic)
 
 # INCOMPATIBILITIES
 
@@ -81,9 +81,9 @@ Please use Requets Tracker for bug reporting:
 
 The following policies have been disabled for this distribution
 
-- [Perl::Critic::Policy::ValuesAndExpressions::ProhibitConstantPragma](https://metacpan.org/pod/Perl::Crititc::Policy::ValuesAndExpressions::ProhibitConstantPragma)
-- [Perl::Critic::Policy::NamingConventions::Capitalization](https://metacpan.org/pod/Perl::Crititc::Policy::NamingConventions::Capitalization)
-- [Documentation::RequirePodLinksIncludeText](https://metacpan.org/pod/Documentation::RequirePodLinksIncludeText)
+- [Perl::Crititc::Policy::ValuesAndExpressions::ProhibitConstantPragma](https://metacpan.org/pod/Perl%3A%3ACrititc%3A%3APolicy%3A%3AValuesAndExpressions%3A%3AProhibitConstantPragma)
+- [Perl::Crititc::Policy::NamingConventions::Capitalization](https://metacpan.org/pod/Perl%3A%3ACrititc%3A%3APolicy%3A%3ANamingConventions%3A%3ACapitalization)
+- [Documentation::RequirePodLinksIncludeText](https://metacpan.org/pod/Documentation%3A%3ARequirePodLinksIncludeText)
 
 See also `t/perlcriticrc`
 
@@ -112,6 +112,6 @@ See also `t/perlcriticrc`
 
 # LICENSE AND COPYRIGHT
 
-Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is (C) by Jonas B. (jonasbn) 2013-2019
+Perl::Critic::Policy::logicLAB::ProhibitShellDispatch is (C) by Jonas B. (jonasbn) 2013-2019
 
-Perl::Critic::Policy::BuiltinFunctions::ProhibitShellDispatch is released under the artistic license 2.0
+Perl::Critic::Policy::logicLAB::ProhibitShellDispatch is released under the artistic license 2.0
