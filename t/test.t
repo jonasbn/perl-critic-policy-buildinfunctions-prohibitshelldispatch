@@ -7,7 +7,7 @@ use_ok 'Perl::Critic::Policy::logicLAB::ProhibitShellDispatch';
 require Perl::Critic;
 my $critic = Perl::Critic->new(
     '-profile'       => '',
-    '-single-policy' => 'BuiltinFunctions::ProhibitShellDispatch'
+    '-single-policy' => 'logicLAB::ProhibitShellDispatch'
 );
 {
     my @p = $critic->policies;
